@@ -1,0 +1,64 @@
+name: 友链模板
+description: 自助添加友链。
+labels: ['审核中']
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 检查清单
+      description: 请认真检查以下清单中的每一项，并在相符的项前打勾。（在满足所有条件后才会通过，不满足的项请不要勾选）
+      options:
+        - required: true
+          label: 合法、非营利性、无商业广告、无木马植入。
+        - required: false
+          label: 有原创内容的 HTTPS 站点，发布过至少 5 篇原创文章，内容题材不限。
+        - required: false
+          label: 有独立域名。非免费域名（如 `.github.io` 等）仅限于博主认识的站点
+        - required: false
+          label: 博客已运行至少 1 个月（以第一篇文章的发布时间为始），非刚搭建好。
+        # - required: false
+        #   label: 先友后链：与博主有至少**半年**的双向有效互动，例如互相留言评论、issue、PR等。
+  - type: textarea
+    id: json-data
+    validations:
+      required: true
+    attributes:
+      label: 友链信息
+      description: 请在双引号中填写，不要修改格式。
+      value: |
+        <!--
+        请在下方的 `JSON` 块中填写，字段说明：
+        - title: 友链标题
+        - url: 友链地址
+        - icon: 网站图标
+        - screenshot: 网站截图
+        - description: 一句话简介
+        - feed: 订阅地址（抓取并显示最新文章）
+        -->
+        
+        ```json
+        {
+            "title": "",
+            "url": "",
+            "icon": "",
+            "screenshot": "",
+            "description": "",
+            "feed": ""
+        }
+        ```
+
+        
+  - type: input
+    id: friends-html
+    attributes:
+      label: 友链地址
+      description: 请输入您的友链页面地址，用于 Github Actions 自动检测。
+      placeholder: "如: https://watermelonabc.top/friends"
+    validations:
+      required: true
+  - type: input
+    id: friends-repo
+    attributes:
+      label: 友链仓库（可选）
+      description: 如果您使用 issue 作为友链源，请附上 issue 仓库链接，博主将会前往您的仓库自行填写友链。
+      placeholder: "如: https://github.com/rt265/Blog-Friends"
