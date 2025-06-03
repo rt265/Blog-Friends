@@ -11,11 +11,11 @@ body:
         - required: true
           label: 合法、非营利性、无商业广告、无木马植入。
         - required: false
-          label: 有原创内容的 HTTPS 站点，发布过至少 5 篇原创文章，内容题材不限。
+          label: 有原创内容的 HTTPS 站点，发布过至少 5 篇文章，内容题材不限。
         - required: false
           label: 有独立域名。非免费域名（如 `.github.io` 等）仅限于博主认识的站点
         - required: false
-          label: 博客已运行至少 1 个月（以第一篇文章的发布时间为始），非刚搭建好。
+          label: 博客已运行至少 1 个月（即第一篇文章的发布时间到最新文章的时间间隔），非刚搭建好。
         # - required: false
         #   label: 先友后链：与博主有至少**半年**的双向有效互动，例如互相留言评论、issue、PR等。
   - type: textarea
