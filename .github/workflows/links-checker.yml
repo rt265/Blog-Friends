@@ -29,7 +29,7 @@ jobs:
         with:
           checker: 'reachability'
           unreachable_label: '失联'
-          exclude_issue_with_labels: '审核中, 白名单, 审核失败' # 具有哪些标签的issue不进行检查
+          exclude_issue_with_labels: '审核中, 白名单, 本站博主, 审核失败' # 具有哪些标签的issue不进行检查
       # 检查完毕后重新生成一下JSON
       - name: Generate data.json
         uses: xaoxuu/issues2json@main
