@@ -13,7 +13,7 @@ body:
         - required: false
           label: 有原创内容的 HTTPS 站点，发布过至少 5 篇文章，内容题材不限。
         - required: false
-          label: 有独立域名。非免费域名（如 `.github.io` 等）仅限于博主认识的站点
+          label: 有独立域名。免费及非独立域名（如 `.github.io` 等）仅限于博主认识的站点
         - required: false
           label: 博客已运行至少 1 个月（即第一篇文章的发布时间到最新文章的时间间隔），非刚搭建好。
         # - required: false
