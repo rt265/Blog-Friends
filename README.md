@@ -17,6 +17,6 @@ Make friends ^-^
 
 ---
 
-本项目**非**我原创。
+动态友链项目**非**我原创。
 
-原始项目由 [XAOXUU](https://github.com/xaoxuu) 创建。相关博客: [感谢 AI，动态友链获重磅升级！](https://xaoxuu.com/blog/20250602/)
+原始项目由 [XAOXUU](https://github.com/xaoxuu) 创建，适用于 [Stellar 1.30.0](https://github.com/xaoxuu/hexo-theme-stellar/tree/1.30.0) 及后续版本。相关博客: [感谢 AI，动态友链获重磅升级！](https://xaoxuu.com/blog/20250602/)
