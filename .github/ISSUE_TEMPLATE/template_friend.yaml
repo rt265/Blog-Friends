@@ -31,9 +31,9 @@ body:
         - title: 友链标题
         - url: 友链地址
         - icon: 网站图标
-        - screenshot: 网站截图
-        - description: 一句话简介
-        - feed: 订阅地址（抓取并显示最新文章）
+        - screenshot: 网站截图【可选】
+        - description: 一句话简介【可选】
+        - feed: 订阅地址（抓取并显示最新文章）【可选】
         -->
         
         ```json
@@ -52,7 +52,7 @@ body:
     id: friends-html
     attributes:
       label: 友链地址
-      description: 请输入您的友链页面地址，用于 Github Actions 自动检测。
+      description: 请输入您的友链展示页面地址，用于 Github Actions 自动检测。
       placeholder: "如: https://watermelonabc.top/friends"
     validations:
       required: true
