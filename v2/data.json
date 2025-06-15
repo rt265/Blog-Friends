@@ -1,0 +1,96 @@
+{
+  "version": "v2",
+  "content": [
+    {
+      "title": "龙星划空",
+      "url": " https://blog.245179.xyz/",
+      "icon": "https://blog.245179.xyz/images/atiq.png",
+      "screenshot": "https://blog.245179.xyz/images/web.png",
+      "description": "人生近看是悲剧，远看是喜剧",
+      "feed": "https://blog.245179.xyz/atom.xml",
+      "posts": [
+        {
+          "title": "自建的红石机器合集（1）",
+          "link": "https://blog.245179.xyz/posts/3159/",
+          "published": "2025-06-15 01:58"
+        },
+        {
+          "title": "校园生活两三事（3）",
+          "link": "https://blog.245179.xyz/posts/5526/",
+          "published": "2025-06-14 12:14"
+        },
+        {
+          "title": "Ai直播的兴起",
+          "link": "https://blog.245179.xyz/posts/35840/",
+          "published": "2025-06-09 01:28"
+        }
+      ],
+      "issue_number": 3,
+      "labels": [
+        {
+          "name": "审核通过",
+          "color": "53A473",
+          "hue": 144,
+          "saturation": 33,
+          "lightness": 48
+        },
+        {
+          "name": "Furry",
+          "color": "9bdbe3",
+          "hue": 187,
+          "saturation": 56,
+          "lightness": 75
+        }
+      ]
+    },
+    {
+      "title": "Wells",
+      "url": "https://blog.wells.host/",
+      "icon": "https://blog.wells.host/img/avatar.jpg",
+      "screenshot": "",
+      "description": "少年应有鸿鹄志，当骑骏马踏平川",
+      "feed": "https://blog.wells.host/atom.xml",
+      "posts": [
+        {
+          "title": "SQL Server下SQL注入的应用",
+          "link": "https://blog.wells.host/posts/e85eefb/",
+          "published": "2025-04-24 13:03"
+        },
+        {
+          "title": "ADCS攻击",
+          "link": "https://blog.wells.host/posts/d13a6d0/",
+          "published": "2025-04-04 05:32"
+        },
+        {
+          "title": "春秋云镜-Certify",
+          "link": "https://blog.wells.host/posts/c964b814/",
+          "published": "2025-04-03 09:58"
+        }
+      ],
+      "issue_number": 2,
+      "labels": [
+        {
+          "name": "审核通过",
+          "color": "53A473",
+          "hue": 144,
+          "saturation": 33,
+          "lightness": 48
+        },
+        {
+          "name": "ROIS",
+          "color": "EFA644",
+          "hue": 34,
+          "saturation": 84,
+          "lightness": 60
+        },
+        {
+          "name": "CTFer",
+          "color": "c0148d",
+          "hue": 318,
+          "saturation": 81,
+          "lightness": 42
+        }
+      ]
+    }
+  ]
+}
