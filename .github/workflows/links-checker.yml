@@ -7,6 +7,9 @@ on:
     types: [opened, closed, reopened, labeled, unlabeled]
   # 手动触发
   workflow_dispatch:
+  # 每天凌晨4点运行一次
+  schedule:
+    - cron: '0 20 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -36,9 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          data_version: 'v2'
-          data_path: '/v2/data.json'
-          sort: 'posts-desc' # created-desc/created-asc/updated-desc/updated-asc/version-desc/posts-desc
+          sort: 'posts-desc'
           exclude_issue_with_labels: '审核中, 审核失败' # 具有哪些标签的issue不生成到JSON中
           hide_labels: '白名单' # 这些标签不显示在前端页面
       - name: Setup Git Config
