@@ -15,9 +15,7 @@ body:
         - required: false
           label: 有独立域名。免费及非独立域名（如 `.github.io` 等）仅限于博主认识的站点
         - required: false
-          label: 博客已运行至少 1 个月（即第一篇文章的发布时间到最新文章的时间间隔），非刚搭建好。
-        # - required: false
-        #   label: 先友后链：与博主有至少**半年**的双向有效互动，例如互相留言评论、issue、PR等。
+          label: 博客已运行至少 1 个月（即第一篇文章的发布时间到最新文章的时间间隔）。
   - type: textarea
     id: json-data
     validations:
@@ -52,7 +50,7 @@ body:
     id: friends-html
     attributes:
       label: 友链地址
-      description: 请输入您的友链展示页面地址，用于 Github Actions 自动检测。
+      description: 请输入您的友链展示页面地址，用于 Github Actions 自动检测。如无，可以输入主页或其他页面地址。
       placeholder: "如: https://watermelonabc.top/friends"
     validations:
       required: true
@@ -60,5 +58,5 @@ body:
     id: friends-repo
     attributes:
       label: 友链仓库（可选）
-      description: 如果您使用 issue 作为友链源，请附上 issue 仓库链接，博主将会前往您的仓库自行填写友链。
+      description: 如果您使用 Github Issues 作为友链源，请附上 Issue 仓库链接，博主将会前往您的仓库自行填写友链。
       placeholder: "如: https://github.com/rt265/Blog-Friends"
