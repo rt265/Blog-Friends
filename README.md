@@ -15,6 +15,8 @@ Make friends ^-^
 
 按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交，审核通过 3 分钟后博客即可看到友链。
 
+审核通过后，也请不要关闭 Issue，因为本项目仅抓取 open issues 的友链信息。
+
 ---
 
 动态友链项目**非**我原创。
