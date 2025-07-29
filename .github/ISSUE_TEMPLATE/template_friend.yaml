@@ -12,28 +12,23 @@ body:
           label: 合法、非营利性、无商业广告、无木马植入。
         - required: false
           label: 有原创内容的 HTTPS 站点，发布过至少 5 篇文章，内容题材不限。
-        - required: false
-          label: 有独立域名。免费及非独立域名（如 `.github.io` 等）仅限于博主认识的站点
-        - required: false
-          label: 博客已运行至少 1 个月（即第一篇文章的发布时间到最新文章的时间间隔）。
   - type: textarea
     id: json-data
     validations:
       required: true
     attributes:
       label: 友链信息
-      description: 请在双引号中填写，不要修改格式。
+      description: |
+      请在下方的 `JSON` 块的双引号中填写，不要修改格式。
+        | 字段        | 说明                |
+        | ----------  | ------------------ |
+        | title       | 友链标题           |
+        | url         | 友链地址           |
+        | icon        | 网站图标           |
+        | description | 一句话简介【可选】  |
+        | screenshot  | 网站截图【可选】    |
+        | feed        | 订阅地址（抓取并显示最新文章）【可选】    |
       value: |
-        <!--
-        请在下方的 `JSON` 块中填写，字段说明：
-        - title: 友链标题
-        - url: 友链地址
-        - icon: 网站图标
-        - screenshot: 网站截图【可选】
-        - description: 一句话简介【可选】
-        - feed: 订阅地址（抓取并显示最新文章）【可选】
-        -->
-        
         ```json
         {
             "title": "",
@@ -45,7 +40,6 @@ body:
         }
         ```
 
-        
   - type: input
     id: friends-html
     attributes:
