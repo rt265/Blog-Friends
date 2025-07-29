@@ -39,7 +39,6 @@ body:
             "feed": ""
         }
         ```
-
   - type: input
     id: friends-html
     attributes:
