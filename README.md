@@ -2,7 +2,7 @@
 
 Make friends ^-^
 
-看看效果？请访问我的博客: [Watermelonabc的Blog](https://watermelonabc.top/)
+看看效果？请访问我的博客: [Watermelonabc的Blog](https://watermelonabc.top/friends/)
 
 ## 申请前须知
 
@@ -18,7 +18,7 @@ Make friends ^-^
 
 ## 如何申请
 
-按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交，审核通过 3 分钟后博客即可看到友链（视 Vercel 部署情况而定）。
+按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交，审核通过后数分钟内博客即可看到你的友链（视 Vercel 部署情况而定）。
 
 审核通过后，请不要关闭 issue，因为本项目仅抓取 open issue 的友链信息。
 
@@ -26,7 +26,7 @@ Make friends ^-^
 
 你也可以直接添加我为你的友链！当然如果你愿意告知我一声自然是更好的 :)
 
-当你添加本站友链时，建议使用以下信息：
+当你添加本站为友链时，建议使用以下信息：
 
 ```yaml
 title: Watermelonabc的Blog
