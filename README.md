@@ -8,7 +8,7 @@ Make friends ^-^
 
 1. 本站友链均为动态友链，页面加载后通过请求接口得到友链数据。
 2. 本站友链按最新一篇文章发布时间倒序排序，越活跃的博主就越靠前。没有 feed 链接/ feed 链接无法解析的可能会排后。
-3. 本站友链仅定期解析 feed 地址，不会爬取其它地址。
+3. 本站友链仅请求提供的地址和定期解析 feed 地址，不会爬取其它地址。
 
 ## 申请条件
 
@@ -20,7 +20,7 @@ Make friends ^-^
 
 按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交，审核通过后数分钟内博客即可看到你的友链（视 Vercel 部署情况而定）。
 
-审核通过后，**请不要关闭** issue，因为本项目仅抓取 open issue 的友链信息。
+审核通过后，**请不要关闭** issue，因为本项目仅抓取 open issue 的友链信息。~~当然你想撤回可以 close，但我希望不要有那一天 www~~
 
 如果在一定时间内（一周左右）博主仍未通过审核或者说明拒绝审核理由，请 @ 他 ;)
 
@@ -34,7 +34,7 @@ Make friends ^-^
 title: Watermelonabc的Blog
 url: “https://watermelonabc.top/
 icon: “https://watermelonabc.top/asset/icon/Avatar.png
-description: IDA，嘿嘿，IDA 🤤
+description: 追寻各色世界
 feed: https://watermelonabc.top/atom.xml
 ```
 
