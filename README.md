@@ -31,11 +31,11 @@ Make friends ^-^
 当你添加本站为友链时，建议使用以下信息：
 
 ```yaml
-title: Watermelonabc的Blog
-url: “https://watermelonabc.top/
-icon: “https://watermelonabc.top/asset/icon/Avatar.jpg
-description: 追寻各色世界
-feed: https://watermelonabc.top/atom.xml
+title: "Watermelonabc的Blog"
+url: "https://watermelonabc.top/"
+icon: "https://watermelonabc.top/asset/icon/Avatar.png"
+description: "追寻各色世界"
+feed: "https://watermelonabc.top/atom.xml"
 ```
 
 ## Credits
