@@ -33,7 +33,7 @@ Make friends ^-^
 ```yaml
 title: "Watermelonabc的Blog"
 url: "https://watermelonabc.top/"
-icon: "https://watermelonabc.top/asset/icon/Avatar.jpg"
+icon: "https://watermelonabc.top/asset/icon/Avatar.webp"
 description: "追寻各色世界"
 feed: "https://watermelonabc.top/atom.xml"
 ```
