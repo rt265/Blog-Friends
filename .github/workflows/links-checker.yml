@@ -35,7 +35,7 @@ jobs:
           exclude_issue_with_labels: '审核中, 白名单, 本站博主, 审核失败' # 具有哪些标签的issue不进行检查
       # 检查完毕后重新生成一下JSON
       - name: Generate data.json
-        uses: rt265/issues2json@main
+        uses: xaoxuu/issues2json@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
