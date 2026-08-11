@@ -24,7 +24,7 @@ body:
         | ----------  | ------------------ |
         | title       | 友链标题           |
         | url         | 友链地址           |
-        | icon        | 网站图标           |
+        | icon        | 网站图标（请删除占位默认图标）          |
         | description | 一句话简介【可选】  |
         | screenshot  | 网站截图【可选】    |
         | feed        | 订阅地址（抓取并显示最新文章）【可选】    |
@@ -42,7 +42,7 @@ body:
   - type: input
     id: friends-html
     attributes:
-      label: 友链地址
+      label: 友链展示地址
       description: 请输入您的友链展示页面地址，用于 Github Actions 自动检测。如无，可以输入主页或其他页面地址。
       placeholder: "如: https://watermelonabc.top/friends"
     validations:
@@ -50,6 +50,6 @@ body:
   - type: input
     id: friends-repo
     attributes:
-      label: 友链仓库（可选）
-      description: 如果您使用 Github Issues 作为友链源，请附上 Issue 仓库链接，博主将会前往您的仓库自行填写友链。
+      label: 自助友链地址（可选）
+      description: 如果您使用自助友链，可附上申请链接。博主将会前往您指定的网站自行填写友链。
       placeholder: "如: https://github.com/rt265/Blog-Friends"
