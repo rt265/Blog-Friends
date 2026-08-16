@@ -7,32 +7,35 @@ Make friends ^-^
 ## 申请前须知
 
 1. 本站友链均为动态友链，页面加载后通过请求接口得到友链数据。
-2. 本站友链按最新一篇文章发布时间倒序排序，越活跃的博主就越靠前。没有 feed 链接/ feed 链接无法解析的可能会排后。
-3. 本站友链仅请求提供的地址和定期解析 feed 地址，不会爬取其它地址。
+2. 本站友链按最新一篇文章发布时间倒序排序，越活跃的博主就越靠前。没有 feed 链接/ feed 链接无法解析的会排后。
+3. 本站友链仅低频爬取提供的地址，不会涉及其它地址。
 
 ## 申请条件
 
-1. 合法的、非营利性、无商业广告站点。
+1. **合法的、非营利性、无商业广告**站点。
 2. 有原创内容的个人或组织博客。
 3. 建议启用 HTTPS。
 
 ## 如何申请
 
-按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交，审核通过后数分钟内博客即可看到你的友链（视 Vercel 部署情况而定）。
+按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交。
+
+审核通过后一段时间内博客即可看到你的友链（视 Vercel 部署和博客本地缓存情况而定，不超过 24 小时）。
 
 审核通过后，**请不要关闭** issue，因为本项目仅抓取 open issue 的友链信息。~~当然你想撤回可以 close，但我希望不要有那一天 www~~
 
-如果在一定时间内（一周左右）博主仍未通过审核或者说明拒绝审核理由，请 @ 他 ;)
+如果在一定时间后（5 天左右）博主仍未通过审核或者说明拒绝审核理由，请 @ 他 ;)
 
 ## 关于可访问性和 Feed 源
 
 本项目利用 Github Action 实现自动化可访问性检测和 Feed 源抓取，一日一次，频率并不高。
 
-如你设置了较为严格的防护措施，你的博客可能会被误判为“失联”，此时友链标签会显示原因。如果显示“403”，则表示你的博客拦截了我的自动化请求。
+如你设置了较为严格的防护措施，你的博客可能会被误判为“失联”，此时友链标签会显示不正常的 HTTP 响应码：
 
-此时，你需要在你的防火墙/WAF/安全规则里放行用户代理 `User-Agent`：`(link-checker/1.0; +https://github.com/xaoxuu/links-checker)`（可访问性检测）和 `(feed-post-parser/1.0; +https://github.com/xaoxuu/feed-posts-parser)`（Feed 源抓取）
+- 如果显示“403”，则表示你的博客拦截了我的自动化请求。
+- 如果显示“404”，则表示你的博客不在线，请检查服务部署情况。
 
-一般来讲，除非你的网站部署在自有服务器或可能产生费用的云服务上，否则不应该设置过高的防护措施。
+对于显示“403”的博友，你需要在你的防火墙/WAF/安全规则里放行用户代理 `User-Agent`：`(link-checker/1.0; +https://github.com/xaoxuu/links-checker)`（可访问性检测）和 `(feed-post-parser/1.0; +https://github.com/xaoxuu/feed-posts-parser)`（Feed 源抓取）。
 
 [订阅源一定要能订阅](https://blog.zhilu.site/2025/unpopular-blog-tech#twikoo)
 
@@ -51,7 +54,5 @@ feed: "https://watermelonabc.top/atom.xml"
 ```
 
 ## Credits
-
-动态友链项目**非**我原创。
 
 原始项目由 [XAOXUU](https://github.com/xaoxuu) 创建，适用于 [Stellar 1.30.0](https://github.com/xaoxuu/hexo-theme-stellar/tree/1.30.0) 及后续版本。相关博客: [感谢 AI，动态友链获重磅升级！](https://xaoxuu.com/blog/20250602/)
