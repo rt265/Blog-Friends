@@ -48,8 +48,15 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Commit and Push to output branch
         run: |
-          git fetch origin output || true
-          git checkout -B output
+          git fetch origin
+          git branch -D output || true
+          git checkout -b output origin/output || git checkout --orphan output
+          git rm -rf . || true
           git add --all
-          git commit -m "Update data from issues" || echo "No changes to commit"
-          git push -f origin output
+          # 提交
+          if git commit -m "Update data from issues"; then
+            # 使用 --force-with-lease 更安全
+            git push origin output --force-with-lease
+          else
+            echo "No changes to commit"
+          fi
