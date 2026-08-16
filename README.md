@@ -30,6 +30,8 @@ Make friends ^-^
 
 如你设置了较为严格的防护措施，你的博客可能会被误判为“失联”，此时友链标签会显示原因。如果显示“403”，则表示你的博客拦截了我的自动化请求。
 
+此时，你需要在你的防火墙/WAF/安全规则里放行用户代理 `User-Agent`：`(link-checker/1.0; +https://github.com/xaoxuu/links-checker)`（可访问性检测）和 `(feed-post-parser/1.0; +https://github.com/xaoxuu/feed-posts-parser)`（Feed 源抓取）
+
 一般来讲，除非你的网站部署在自有服务器或可能产生费用的云服务上，否则不应该设置过高的防护措施。
 
 [订阅源一定要能订阅](https://blog.zhilu.site/2025/unpopular-blog-tech#twikoo)
