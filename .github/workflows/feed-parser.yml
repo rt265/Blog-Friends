@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run Feed Post Parser
-        uses: xaoxuu/feed-posts-parser@main
+        uses: rt265/feed-posts-parser@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
