@@ -35,7 +35,7 @@ Make friends ^-^
 - 如果显示“403”，则表示你的博客拦截了我的自动化请求。
 - 如果显示“404”，则表示你的博客不在线，请检查服务部署情况。
 
-对于显示“403”的博友，你需要在你的防火墙/WAF/安全规则里放行用户代理 `User-Agent`：`(link-checker/1.0; +https://github.com/xaoxuu/links-checker)`（可访问性检测）和 `(feed-post-parser/1.0; +https://github.com/xaoxuu/feed-posts-parser)`（Feed 源抓取）。
+对于显示“403”的博友，你需要在你的防火墙/WAF/安全规则里放行用户代理 `User-Agent`：`(link-checker/1.0; +https://github.com/xaoxuu/links-checker)`（可访问性检测）和 `(feed-post-parser/1.0; +https://github.com/xaoxuu/feed-posts-parser)`（Feed 源抓取），并且将其优先于其他阻拦规则。这是参考了 [Allowlisting Instatus checks](https://instatus.com/help/monitoring) 的实践
 
 [订阅源一定要能订阅](https://blog.zhilu.site/2025/unpopular-blog-tech#twikoo)
 
