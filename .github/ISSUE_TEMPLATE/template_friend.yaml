@@ -24,16 +24,16 @@ body:
         | ----------  | ------------------ |
         | title       | 友链标题           |
         | url         | 友链地址           |
-        | icon        | 网站图标（请删除占位默认图标）          |
+        | icon        | 网站图标（如要设置，请删除占位图标URL）          |
         | description | 一句话简介【可选】  |
         | screenshot  | 网站截图【可选】    |
-        | feed        | 订阅地址（抓取并显示最新文章）【可选】    |
+        | feed        | 订阅地址（用于抓取最新文章）【可选】    |
       value: |
         ```json
         {
             "title": "",
             "url": "",
-            "icon": "https://watermelonabc.top/asset/image/solar-cat.svg",
+            "icon": "https://blog.watermelonabc.top/asset/image/solar-cat.svg",
             "screenshot": "",
             "description": "",
             "feed": ""
@@ -44,7 +44,7 @@ body:
     attributes:
       label: 友链展示地址（可选）
       description: 请输入您的友链展示页面地址。如无，可以输入主页或其他页面地址。
-      placeholder: "如: https://watermelonabc.top/friends"
+      placeholder: "如: https://blog.watermelonabc.top/friends"
   - type: input
     id: friends-repo
     attributes:
