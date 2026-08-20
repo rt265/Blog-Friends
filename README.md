@@ -2,7 +2,7 @@
 
 Make friends ^-^
 
-看看效果？请访问我的博客: [Watermelonabc的Blog](https://watermelonabc.top/friends/)
+看看效果？请访问我的博客: [Watermelonabc的Blog](https://blog.watermelonabc.top/friends/)
 
 ## 申请前须知
 
@@ -47,10 +47,10 @@ Make friends ^-^
 
 ```yaml
 title: "Watermelonabc的Blog"
-url: "https://watermelonabc.top/"
-icon: "https://watermelonabc.top/asset/icon/Avatar.webp"
+url: "https://blog.watermelonabc.top/"
+icon: "https://blog.watermelonabc.top/asset/icon/Avatar.webp"
 description: "追寻各色世界"
-feed: "https://watermelonabc.top/atom.xml"
+feed: "https://blog.watermelonabc.top/atom.xml"
 ```
 
 ## Credits
