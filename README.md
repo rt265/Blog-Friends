@@ -48,7 +48,7 @@ Make friends ^-^
 ```yaml
 title: "Watermelonabc的Blog"
 url: "https://blog.watermelonabc.top/"
-icon: "https://blog.watermelonabc.top/assets/icon/solar-cat.svg"
+icon: "https://blog.watermelonabc.top/assets/icon/Avatar.webp"
 description: "追寻各色世界"
 feed: "https://blog.watermelonabc.top/atom.xml"
 ```
