@@ -20,7 +20,7 @@ Make friends ^-^
 
 按照 [Issue 模板](https://github.com/rt265/Blog-Friends/issues/new?template=template_friend.yaml) 内容填写并提交。
 
-审核通过后一段时间内博客即可看到你的友链（视 Vercel 部署和博客本地缓存情况而定，不超过 24 小时）。
+审核通过后一段时间内博客即可看到你的友链。Vercel 部署只需要数分钟，如果发现未更新，请刷新博客处的缓存数据（刷新按钮在友链搜索栏右侧）
 
 审核通过后，**请不要关闭** issue，因为本项目仅抓取 open issue 的友链信息。~~当然你想撤回可以 close，但我希望不要有那一天 www~~
 
