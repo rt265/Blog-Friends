@@ -23,7 +23,7 @@ labels:
         body: |
           **🎉 恭喜，友链添加成功！**
 
-          稍后片刻刷新 [网页](https://watermelonabc.top/friends/) 就可以看到您的链接。
+          稍后片刻刷新 [网页](https://blog.watermelonabc.top/friends/) 就可以看到您的链接。
 
           > 如果您的站点信息发生了变动，请直接修改这个 issue 的内容。
 
@@ -32,6 +32,6 @@ labels:
       issue:
         action: close
         body: |
-          **⚠️ 抱歉，您的网站长期打不开，现已暂时下架。**
+          **⚠️ 抱歉，您的网站长期无法访问，现已暂时下架。**
 
           如果您确认可以打开，请在下方评论告知，我们会在人工审核通过后恢复上架。
